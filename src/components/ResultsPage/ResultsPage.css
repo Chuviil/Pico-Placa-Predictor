@@ -1,0 +1,29 @@
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #C43240;
+    border-radius: 15px;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #B42F3E;
+}
+
+.anim-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

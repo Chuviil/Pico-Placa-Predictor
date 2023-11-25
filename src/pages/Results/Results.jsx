@@ -1,8 +1,7 @@
 import ResultsPage from "../../components/ResultsPage/ResultsPage";
 
 const Results = () => {
-    return <ResultsPage />
-    
+    return <ResultsPage />    
 }
 
 export default Results;
