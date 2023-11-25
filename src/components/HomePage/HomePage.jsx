@@ -1,10 +1,15 @@
+import Button from "../common/Button/Button";
+import TextInput from "../common/TextInput/TextInput";
 import"./HomePage.css";
 
 const HomePage = () => {
     return (
         <div className="home-page">
-            <h1>Home Page</h1>
-            <p>This is where the user will input his plate, date and time.</p>
+            <h1>Pico y Placa Predictor</h1>
+            <TextInput label="Plate" placeholder={"PBX-1234"}/>
+            <TextInput label="Date" placeholder={"DD/MM/YYYY"}/>
+            <TextInput label="Time" type={"time"}/>
+            <Button>Predict</Button>
         </div>
     )
 }
