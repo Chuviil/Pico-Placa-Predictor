@@ -1,23 +1,11 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import ErrorPage from "./error-page";
-import Home from "./pages/Home/Home";
-import Results from "./pages/Results/Results";
+import { Outlet } from "react-router-dom";
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-        errorElement: <ErrorPage />,
-    },
-    {
-        path: "/results",
-        element: <Results />,
-        errorElement: <ErrorPage />,
-    }
-], {basename: "/Pico-Placa-Predictor/"});
-
-const App = () => (
-    <RouterProvider router={router} />
-);
+const App = () => {
+    return (
+        <main>
+            <Outlet />
+        </main>
+    )
+}
 
 export default App;
