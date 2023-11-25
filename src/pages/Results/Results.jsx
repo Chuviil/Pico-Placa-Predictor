@@ -1,5 +1,8 @@
+import ResultsPage from "../../components/ResultsPage/ResultsPage";
+
 const Results = () => {
-    return 
+    return <ResultsPage />
+    
 }
 
 export default Results;
