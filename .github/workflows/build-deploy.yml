@@ -1,3 +1,5 @@
+name: React Build and Deploy to Github Pages
+
 on:
   push:
     branches:
@@ -20,3 +22,6 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+
+permissions: 
+  contents: write
