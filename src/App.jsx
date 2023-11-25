@@ -14,7 +14,7 @@ const router = createBrowserRouter([
         element: <Results />,
         errorElement: <ErrorPage />,
     }
-]);
+], {basename: "/Pico-Placa-Predictor/"});
 
 const App = () => (
     <RouterProvider router={router} />

@@ -13,7 +13,7 @@ const ResultsPage = () => {
             <h1>You are {allowedToCirculate || "not"} allowed to circulate!</h1>
             {allowedToCirculate ? (
                 <>
-                    <p>You're all set to circulate at this time. Drive safely!</p>
+                    <p>You&#39;re all set to circulate at this time. Drive safely!</p>
                     <Player autoplay loop src={car_on_road} style={{ width: 300 }} />
                 </>
             ) : (
