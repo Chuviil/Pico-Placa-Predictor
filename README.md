@@ -70,6 +70,9 @@ npm run test
 
 ### Utilities
 - `isAllowedToCirculate` Determines whether a vehicle is allowed to circulate based on Pico y Placa restrictions.
+- `isPlate` Validation function to determine whether a string is or not a valid license plate in a format ABC-1234.
+- `isDate` Validation function to determine whether a string is or not a valid date string in a format YYYY-MM-DD.
+- `isTime` Validation function to determine whether a string is or not a valid time in a format HH:mm.
 
 ## Author
 
