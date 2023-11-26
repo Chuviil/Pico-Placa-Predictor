@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./ResultsPage.css";
 import { Player } from "@lottiefiles/react-lottie-player";
 import car_on_road from "../../assets/car_on_road.json";
@@ -6,8 +6,8 @@ import bus from "../../assets/bus.json";
 import bicycle from "../../assets/bicycle.json";
 import isAllowedToCirculate from "../../utils/predictor";
 
-const ResultsPage = () => {
-    let {state:{plate, date, time}} = useLocation();
+const ResultsPage = ({state}) => {
+    let {plate, date, time} = state;
 
     const allowedToCirculate = isAllowedToCirculate(plate, date, time);
 
