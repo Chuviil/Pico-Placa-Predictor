@@ -1,3 +1,11 @@
+/**
+ * Determines whether a vehicle is allowed to circulate based on Pico y Placa restrictions.
+ *
+ * @param {string} plate - The vehicle's plate number.
+ * @param {string} date - The date in "YYYY-MM-DD" format.
+ * @param {string} time - The time in "HH:mm" format.
+ * @returns {boolean} - True if allowed to circulate, false otherwise.
+ */
 function isAllowedToCirculate(plate, date, time) {
     // Convert the date string to a Date object and set the time to 00:00:00 to treat it as a local date
     const dateObject = new Date(date + "T00:00:00");
