@@ -5,3 +5,17 @@
     justify-content: center;
     height: 100vh;
 }
+
+.error-container {
+    width: 40vh;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4f0309;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: solid #842029 1px;
+}
+
+.text-error {
+    color: #ea868f;
+}
